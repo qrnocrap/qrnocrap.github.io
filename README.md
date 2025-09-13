@@ -1,4 +1,4 @@
-# qrnocrapp
+# qrnocrap
 
 > (cue-ar-nou-krap)
 
