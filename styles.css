@@ -1,0 +1,41 @@
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color-scheme: light dark;
+}
+
+body {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+#urlInput {
+  width: 300px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #cccccccc;
+}
+
+#qrcode > img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #cccccccc;
+}
