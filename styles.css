@@ -19,8 +19,16 @@ h1 {
   margin-bottom: 0;
 }
 
-#urlInput {
+label {
+  font-size: small;
+  margin-right: 8px;
+}
+
+input {
   width: 300px;
+}
+
+input, select {
   padding: 8px 16px;
   border-radius: 8px;
   border: 1px solid #cccccccc;
@@ -38,4 +46,9 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
   border: 1px solid #cccccccc;
+}
+
+a {
+  font-size: small;
+  color: #888;
 }
