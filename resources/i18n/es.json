@@ -1,0 +1,17 @@
+{
+  "urlInput.placeholder": "url, teléfono, correo electrónico, dirección, texto…",
+  "ssidInput.placeholder": "nombre de la red (ssid)",
+  "passwordInput.placeholder": "contraseña",
+  "whatsappInput.placeholder": "tu número de teléfono con código de país",
+  "encryptionInput.label": "tipo de seguridad",
+  "encryptionInput.option.wpa": "wpa (más común)",
+  "encryptionInput.option.wep": "wep",
+  "encryptionInput.option.none": "ninguna",
+  "download-button.label": "descargar",
+  "copy-button.label": "copiar",
+  "main.link": "qrnocrap para todo lo demás",
+  "wifi.link": "qrnocrap para wi-fi",
+  "whatsapp.link": "qrnocrap para whatsapp",
+  "credits.text": "hecho con ❤️ por ",
+  "credits.link": "@soyfaii"
+}

@@ -11,25 +11,28 @@
 
 <body>
     <h1>qrnocrap/wifi</h1>
-    <input type="text" id="ssidInput" aria-label="Wi-Fi Network Name (SSID)" placeholder="network name (ssid)">
-    <input type="text" id="pwdInput" aria-label="Wi-Fi Network Password" placeholder="password">
+    <input type="text" id="ssidInput" aria-label="Wi-Fi Network Name (SSID)" data-i18n="ssidInput.placeholder"
+        placeholder="network name (ssid)">
+    <input type="text" id="pwdInput" aria-label="Wi-Fi Network Password" data-i18n="passwordInput.placeholder"
+        placeholder="password">
     <div>
-        <label for="encryptionInput">security type</label>
+        <label for="encryptionInput" data-i18n="encryptionInput.label">security type</label>
         <select id="encryptionInput" aria-label="Wi-Fi Network Security Type">
-            <option value="WPA">wpa (most common)</option>
-            <option value="WEP">wep</option>
-            <option value="nopass">none</option>
+            <option value="WPA" data-i18n="encryptionInput.option.wpa">wpa (most common)</option>
+            <option value="WEP" data-i18n="encryptionInput.option.wep">wep</option>
+            <option value="nopass" data-i18n="encryptionInput.option.none">none</option>
         </select>
     </div>
     <div id="qrcode"></div>
     <div>
-        <button id="download-button" aria-label="Download QR code">download</button>
-        <button id="copy-button" aria-label="Copy QR code">copy</button>
+        <button id="download-button" aria-label="Download QR code" data-i18n="download-button.label">download</button>
+        <button id="copy-button" aria-label="Copy QR code" data-i18n="copy-button.label">copy</button>
     </div>
-    <a href="../">qrnocrap for everything else</a>
+    <a href="../" data-i18n="main.link">qrnocrap for everything else</a>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="../main.js"></script>
+    <script src="../js/i18n.js"></script>
 </body>
 
 </html>

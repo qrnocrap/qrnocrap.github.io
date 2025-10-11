@@ -17,18 +17,23 @@
 
 <body>
     <h1>qrnocrap</h1>
-    <input type="text" id="urlInput" aria-label="QR code content" placeholder="url, phone, email, address, text…">
+    <input type="text" id="urlInput" aria-label="QR code content" data-i18n="urlInput.placeholder"
+        placeholder="url, phone, email, address, text…">
     <div id="qrcode"></div>
     <div>
-        <button id="download-button" aria-label="Download QR code">download</button>
-        <button id="copy-button" aria-label="Copy QR code">copy</button>
+        <button id="download-button" aria-label="Download QR code" data-i18n="download-button.label">download</button>
+        <button id="copy-button" aria-label="Copy QR code" data-i18n="copy-button.label">copy</button>
     </div>
-    <a href="wifi">qrnocrap for wi-fi</a>
-    <a href="whatsapp">qrnocrap for whatsapp</a>
-    <span class="credits">made with ❤️ by <a href="https://soyfaii.github.io">@soyfaii</a></span>
+    <a href="wifi" data-i18n="wifi.link">qrnocrap for wi-fi</a>
+    <a href="whatsapp" data-i18n="whatsapp.link">qrnocrap for whatsapp</a>
+    <span class="credits">
+        <span data-i18n="credits.text">made with ❤️ by</span>
+        <a href="https://soyfaii.github.io" data-i18n="credits.link">@soyfaii</a>
+    </span>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="main.js"></script>
+    <script src="js/i18n.js"></script>
 </body>
 
 </html>
