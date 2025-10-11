@@ -14,5 +14,11 @@ async function setLanguage(lang) {
   });
 }
 
-const browserLang = navigator.language.startsWith("es") ? "es" : "en";
-if (browserLang != "en") setLanguage(browserLang);
+const availableTranslations = ["es", "ca"];
+const userLanguage = navigator.language.split("-")[0];
+
+console.log();
+const siteLanguage = availableTranslations.includes(userLanguage)
+  ? userLanguage
+  : "en";
+if (siteLanguage != "en") setLanguage(siteLanguage);
