@@ -1,0 +1,17 @@
+{
+  "urlInput.placeholder": "url, telèfon, correu electrònic, adreça, text…",
+  "ssidInput.placeholder": "nom de la xarxa (ssid)",
+  "passwordInput.placeholder": "contrasenya",
+  "whatsappInput.placeholder": "el vostre número de telèfon amb codi de país",
+  "encryptionInput.label": "tipus de seguretat",
+  "encryptionInput.option.wpa": "wpa (més comuna)",
+  "encryptionInput.option.wep": "wep",
+  "encryptionInput.option.none": "cap mena de seguretat",
+  "download-button.label": "descarrega",
+  "copy-button.label": "copia",
+  "main.link": "qrnocrap per la resta de coses",
+  "wifi.link": "qrnocrap pel wi-fi",
+  "whatsapp.link": "qrnocrap pel whatsapp",
+  "credits.text": "fet amb ❤️ per ",
+  "credits.link": "@soyfaii"
+}
