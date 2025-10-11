@@ -34,7 +34,7 @@ input, select {
   border: 1px solid #cccccccc;
 }
 
-#qrcode > img {
+#qrcode > img, #qrcode > canvas {
   width: 200px;
   height: 200px;
   padding: 20px;
