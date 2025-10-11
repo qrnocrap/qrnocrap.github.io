@@ -1,7 +1,5 @@
 # qrnocrap
 
-> (cue-ar-nou-krap)
-
 no trackers, no ads, no accounts, no fanciness
 
 just an instant qr code
